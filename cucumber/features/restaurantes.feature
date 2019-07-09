@@ -10,24 +10,23 @@ Funcionalidade: Restaurantes
     
         Dado que eu tenho uma lista de restaurantes
 
-       Cenario: Todos os restaurantes
+        Cenario: Todos os restaurantes
 
-        Quando acesso a lista de restaurantes
-        Então vejo todas as opções disponíveis
+            Quando acesso a lista de restaurantes
+            Então vejo todas as opções disponíveis
     
-    Cenario: Categorias
+        Cenario: Categorias
 
-        Quando acesso a lista de restaurantes
-        Então cada restaurante deve exibir sua categoria
+            Quando acesso a lista de restaurantes
+            Então cada restaurante deve exibir sua categoria
 
-    @Temp #cucumber -t @temp
+   
+        Cenario: Tempo de entrega
 
-    Cenario: Tempo de entrega
+            Quando acesso a lista de restaurantes
+            Então cada restaurante deve exibir o tempo de entrega
 
-        Quando acesso a lista de restaurantes
-        Então cada restaurante deve exibir o tempo de entrega
+        Cenario: Nota de avaliação
 
-    Cenario: Nota de avaliação
-
-        Quando acesso a lista de restaurantes
-        Então cada restaurante deve exibir sua nota de avaliação
+            Quando acesso a lista de restaurantes
+            Então cada restaurante deve exibir sua nota de avaliação
