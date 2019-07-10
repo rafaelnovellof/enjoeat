@@ -1,6 +1,7 @@
-default: --profile json_report --profile ci
-json_report: --format json --out=log/report.json
-ci: --tags @ci
+default: -p json -p ci
+ci: -p json -p progress
+json: --format json --out=log/report.json
+progress: --format progress
 
 # default: -p dev -p firefox -p html -p progress
 # ci: -p dev -p headless -p json -p progress

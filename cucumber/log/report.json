@@ -26,7 +26,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23600
+              "duration": 33800
             }
           },
           {
@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16800
+              "duration": 28800
             }
           }
         ],
@@ -49,7 +49,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27000
+              "duration": 747500
             }
           }
         ]
@@ -78,7 +78,7 @@
             "result": {
               "status": "failed",
               "error_message": "Net::ReadTimeout (Net::ReadTimeout)\n./features/step_definitions/restaurantes_steps.rb:10:in `\"acesso a lista de restaurantes\"'\nfeatures/restaurantes.feature:15:in `Quando acesso a lista de restaurantes'",
-              "duration": 64205135300
+              "duration": 64786777200
             }
           },
           {
@@ -100,7 +100,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24950783700
+              "duration": 109393310200
             }
           }
         ]
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33500
+              "duration": 61900
             }
           },
           {
@@ -127,7 +127,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19700
+              "duration": 49400
             }
           }
         ],
@@ -141,7 +141,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41300
+              "duration": 92100
             }
           }
         ]
@@ -168,8 +168,9 @@
               "location": "features/step_definitions/restaurantes_steps.rb:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 34215585800
+              "status": "failed",
+              "error_message": "Net::ReadTimeout (Net::ReadTimeout)\n./features/step_definitions/restaurantes_steps.rb:10:in `\"acesso a lista de restaurantes\"'\nfeatures/restaurantes.feature:20:in `Quando acesso a lista de restaurantes'",
+              "duration": 60004409000
             }
           },
           {
@@ -180,9 +181,7 @@
               "location": "features/step_definitions/restaurantes_steps.rb:18"
             },
             "result": {
-              "status": "failed",
-              "error_message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (Selenium::WebDriver::Error::NoSuchWindowError)\n./features/step_definitions/restaurantes_steps.rb:19:in `\"cada restaurante deve exibir sua categoria\"'\nfeatures/restaurantes.feature:21:in `Então cada restaurante deve exibir sua categoria'",
-              "duration": 15093000
+              "status": "skipped"
             }
           }
         ],
@@ -192,9 +191,8 @@
               "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
             },
             "result": {
-              "status": "failed",
-              "error_message": "invalid argument: 'name' must be a string\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (Selenium::WebDriver::Error::InvalidArgumentError)",
-              "duration": 81947100
+              "status": "passed",
+              "duration": 19484020300
             }
           }
         ]
@@ -212,7 +210,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21200
+              "duration": 104000
             }
           },
           {
@@ -221,7 +219,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17700
+              "duration": 60100
             }
           }
         ],
@@ -235,7 +233,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26000
+              "duration": 83000
             }
           }
         ]
@@ -262,9 +260,8 @@
               "location": "features/step_definitions/restaurantes_steps.rb:9"
             },
             "result": {
-              "status": "failed",
-              "error_message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (Selenium::WebDriver::Error::NoSuchWindowError)\n./features/step_definitions/restaurantes_steps.rb:10:in `\"acesso a lista de restaurantes\"'\nfeatures/restaurantes.feature:26:in `Quando acesso a lista de restaurantes'",
-              "duration": 13943900
+              "status": "passed",
+              "duration": 21802291500
             }
           },
           {
@@ -275,7 +272,9 @@
               "location": "features/step_definitions/restaurantes_steps.rb:27"
             },
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "expected to find text \"25 minutos\" in \"\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:31:in `block (2 levels) in <top (required)>'\n./features/step_definitions/restaurantes_steps.rb:30:in `each'\n./features/step_definitions/restaurantes_steps.rb:30:in `each_with_index'\n./features/step_definitions/restaurantes_steps.rb:30:in `\"cada restaurante deve exibir o tempo de entrega\"'\nfeatures/restaurantes.feature:27:in `Então cada restaurante deve exibir o tempo de entrega'",
+              "duration": 30383251000
             }
           }
         ],
@@ -285,9 +284,8 @@
               "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
             },
             "result": {
-              "status": "failed",
-              "error_message": "chrome not reachable\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (Selenium::WebDriver::Error::WebDriverError)",
-              "duration": 2007221300
+              "status": "passed",
+              "duration": 104392000
             }
           }
         ]
@@ -305,7 +303,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60200
+              "duration": 39200
             }
           },
           {
@@ -314,7 +312,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37000
+              "duration": 38800
             }
           }
         ],
@@ -328,7 +326,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35100
+              "duration": 256600
             }
           }
         ]
@@ -355,9 +353,8 @@
               "location": "features/step_definitions/restaurantes_steps.rb:9"
             },
             "result": {
-              "status": "failed",
-              "error_message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (Selenium::WebDriver::Error::NoSuchWindowError)\n./features/step_definitions/restaurantes_steps.rb:10:in `\"acesso a lista de restaurantes\"'\nfeatures/restaurantes.feature:31:in `Quando acesso a lista de restaurantes'",
-              "duration": 12146700
+              "status": "passed",
+              "duration": 25845015900
             }
           },
           {
@@ -368,7 +365,8 @@
               "location": "features/step_definitions/restaurantes_steps.rb:36"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 220651500
             }
           }
         ],
@@ -378,9 +376,8 @@
               "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
             },
             "result": {
-              "status": "failed",
-              "error_message": "chrome not reachable\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (Selenium::WebDriver::Error::WebDriverError)",
-              "duration": 241437400
+              "status": "passed",
+              "duration": 92143600
             }
           }
         ]
