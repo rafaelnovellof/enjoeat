@@ -1,3 +1,0 @@
-   default: --profile html_report --profile ci
-   html_report: --format json --out=report.json
-   ci: --tags @ci
