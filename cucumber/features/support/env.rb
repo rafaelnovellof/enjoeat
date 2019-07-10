@@ -17,20 +17,20 @@ Capybara::Selenium::Driver.new(app, browser: :chrome, desired_capabilities: caps
 
 end
 
-Capybara.register_driver :poltergeist do |app|
+# Capybara.register_driver :poltergeist do |app|
 
-    options = {
-        timeout: 3.minutes,
-        phantomjs_options: [
-       'proxytype=none',
-       'loadimages=no',
-       'ignoresslerrors=yes',
-       'sslprotocol=any',
-       'websecurity=false'
-        ]
-     }
-     Capybara::Poltergeist::Driver.new(app, options)
-end
+#     options = {
+#         timeout: 3.minutes,
+#         phantomjs_options: [
+#        'proxytype=none',
+#        'loadimages=no',
+#        'ignoresslerrors=yes',
+#        'sslprotocol=any',
+#        'websecurity=false'
+#         ]
+#      }
+#      Capybara::Poltergeist::Driver.new(app, options)
+# end
 
 # Capybara.javascript_driver = :poltergeist
 

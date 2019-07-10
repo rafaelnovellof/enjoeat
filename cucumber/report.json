@@ -26,7 +26,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30700
+              "duration": 26400
             }
           },
           {
@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27700
+              "duration": 20900
             }
           }
         ],
@@ -49,7 +49,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 39500
+              "duration": 76900
             }
           }
         ]
@@ -77,7 +77,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5841040900
+              "duration": 6045425400
             }
           },
           {
@@ -90,7 +90,7 @@
             "result": {
               "status": "failed",
               "error_message": "expected: > 1\n     got:   0 (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:15:in `\"vejo todas as opções disponíveis\"'\nfeatures/restaurantes.feature:16:in `Então vejo todas as opções disponíveis'",
-              "duration": 10203752500
+              "duration": 10220007400
             }
           }
         ],
@@ -101,7 +101,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 191518300
+              "duration": 202550600
             }
           }
         ]
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 43400
+              "duration": 52700
             }
           },
           {
@@ -128,7 +128,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62800
+              "duration": 41700
             }
           }
         ],
@@ -142,7 +142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85200
+              "duration": 63100
             }
           }
         ]
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 440840400
+              "duration": 444333800
             }
           },
           {
@@ -183,7 +183,7 @@
             "result": {
               "status": "failed",
               "error_message": "expected to find text \"Padaria\" in \"\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:22:in `block (2 levels) in <top (required)>'\n./features/step_definitions/restaurantes_steps.rb:21:in `each'\n./features/step_definitions/restaurantes_steps.rb:21:in `each_with_index'\n./features/step_definitions/restaurantes_steps.rb:21:in `\"cada restaurante deve exibir sua categoria\"'\nfeatures/restaurantes.feature:21:in `Então cada restaurante deve exibir sua categoria'",
-              "duration": 10021502800
+              "duration": 10017346900
             }
           }
         ],
@@ -194,7 +194,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 133778400
+              "duration": 92551600
             }
           }
         ]
@@ -212,7 +212,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 87400
+              "duration": 33900
             }
           },
           {
@@ -221,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74500
+              "duration": 31300
             }
           }
         ],
@@ -235,7 +235,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 108700
+              "duration": 40700
             }
           }
         ]
@@ -263,7 +263,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 719073800
+              "duration": 366796100
             }
           },
           {
@@ -276,7 +276,7 @@
             "result": {
               "status": "failed",
               "error_message": "expected to find text \"25 minutos\" in \"\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:31:in `block (2 levels) in <top (required)>'\n./features/step_definitions/restaurantes_steps.rb:30:in `each'\n./features/step_definitions/restaurantes_steps.rb:30:in `each_with_index'\n./features/step_definitions/restaurantes_steps.rb:30:in `\"cada restaurante deve exibir o tempo de entrega\"'\nfeatures/restaurantes.feature:27:in `Então cada restaurante deve exibir o tempo de entrega'",
-              "duration": 10003061600
+              "duration": 10010667000
             }
           }
         ],
@@ -287,7 +287,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 143351100
+              "duration": 128427500
             }
           }
         ]
@@ -305,7 +305,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70300
+              "duration": 179000
             }
           },
           {
@@ -314,7 +314,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62200
+              "duration": 73500
             }
           }
         ],
@@ -328,7 +328,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 75900
+              "duration": 113600
             }
           }
         ]
@@ -356,7 +356,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3768490800
+              "duration": 517873200
             }
           },
           {
@@ -369,7 +369,7 @@
             "result": {
               "status": "failed",
               "error_message": "expected to find text \"4.9\" in \"\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:40:in `block (2 levels) in <top (required)>'\n./features/step_definitions/restaurantes_steps.rb:39:in `each'\n./features/step_definitions/restaurantes_steps.rb:39:in `each_with_index'\n./features/step_definitions/restaurantes_steps.rb:39:in `\"cada restaurante deve exibir sua nota de avaliação\"'\nfeatures/restaurantes.feature:32:in `Então cada restaurante deve exibir sua nota de avaliação'",
-              "duration": 10011112100
+              "duration": 10007628200
             }
           }
         ],
@@ -380,7 +380,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92563700
+              "duration": 79648400
             }
           }
         ]
