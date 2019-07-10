@@ -1,0 +1,390 @@
+[
+  {
+    "uri": "features/restaurantes.feature",
+    "id": "restaurantes",
+    "keyword": "Funcionalidade",
+    "name": "Restaurantes",
+    "description": "    Para que eu possa saber quais os restaurantes disponíveis com o tempo de entrega e nota de avaliação\n    Sendo um usuário que deseja pedir comida\n    Posso acessar a lista de restaurantes",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@ci",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "Lista de restaurantes",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30700
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27700
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu tenho uma lista de restaurantes",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39500
+            }
+          }
+        ]
+      },
+      {
+        "id": "restaurantes;todos-os-restaurantes",
+        "keyword": "Cenario",
+        "name": "Todos os restaurantes",
+        "description": "",
+        "line": 13,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@ci",
+            "line": 3
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "acesso a lista de restaurantes",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5841040900
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "vejo todas as opções disponíveis",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:13"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "expected: > 1\n     got:   0 (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:15:in `\"vejo todas as opções disponíveis\"'\nfeatures/restaurantes.feature:16:in `Então vejo todas as opções disponíveis'",
+              "duration": 10203752500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191518300
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Lista de restaurantes",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu tenho uma lista de restaurantes",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85200
+            }
+          }
+        ]
+      },
+      {
+        "id": "restaurantes;categorias",
+        "keyword": "Cenario",
+        "name": "Categorias",
+        "description": "",
+        "line": 18,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@ci",
+            "line": 3
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "acesso a lista de restaurantes",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 440840400
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "cada restaurante deve exibir sua categoria",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:18"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "expected to find text \"Padaria\" in \"\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:22:in `block (2 levels) in <top (required)>'\n./features/step_definitions/restaurantes_steps.rb:21:in `each'\n./features/step_definitions/restaurantes_steps.rb:21:in `each_with_index'\n./features/step_definitions/restaurantes_steps.rb:21:in `\"cada restaurante deve exibir sua categoria\"'\nfeatures/restaurantes.feature:21:in `Então cada restaurante deve exibir sua categoria'",
+              "duration": 10021502800
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133778400
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Lista de restaurantes",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74500
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu tenho uma lista de restaurantes",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108700
+            }
+          }
+        ]
+      },
+      {
+        "id": "restaurantes;tempo-de-entrega",
+        "keyword": "Cenario",
+        "name": "Tempo de entrega",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@ci",
+            "line": 3
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "acesso a lista de restaurantes",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 719073800
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "cada restaurante deve exibir o tempo de entrega",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:27"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "expected to find text \"25 minutos\" in \"\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:31:in `block (2 levels) in <top (required)>'\n./features/step_definitions/restaurantes_steps.rb:30:in `each'\n./features/step_definitions/restaurantes_steps.rb:30:in `each_with_index'\n./features/step_definitions/restaurantes_steps.rb:30:in `\"cada restaurante deve exibir o tempo de entrega\"'\nfeatures/restaurantes.feature:27:in `Então cada restaurante deve exibir o tempo de entrega'",
+              "duration": 10003061600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143351100
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Lista de restaurantes",
+        "description": "",
+        "line": 9,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62200
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu tenho uma lista de restaurantes",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75900
+            }
+          }
+        ]
+      },
+      {
+        "id": "restaurantes;nota-de-avaliação",
+        "keyword": "Cenario",
+        "name": "Nota de avaliação",
+        "description": "",
+        "line": 29,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@ci",
+            "line": 3
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "acesso a lista de restaurantes",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3768490800
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "cada restaurante deve exibir sua nota de avaliação",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/restaurantes_steps.rb:36"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "expected to find text \"4.9\" in \"\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:40:in `block (2 levels) in <top (required)>'\n./features/step_definitions/restaurantes_steps.rb:39:in `each'\n./features/step_definitions/restaurantes_steps.rb:39:in `each_with_index'\n./features/step_definitions/restaurantes_steps.rb:39:in `\"cada restaurante deve exibir sua nota de avaliação\"'\nfeatures/restaurantes.feature:32:in `Então cada restaurante deve exibir sua nota de avaliação'",
+              "duration": 10011112100
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92563700
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
