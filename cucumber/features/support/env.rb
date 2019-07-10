@@ -5,7 +5,7 @@ require 'selenium-webdriver'
 
 Capybara.register_driver :selenium do |app|
 
-    args = %w[headless --no-sandbox disable-gpu window-size=1440,900]
+    args = %w[headless --no-sandbox disable-gpu window-size=1440,900 --disable-dev-shm-usage]
 
     caps = Selenium::WebDriver::Remote::Capabilities.chrome(
         'chromeOptions' => {
