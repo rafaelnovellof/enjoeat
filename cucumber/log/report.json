@@ -26,7 +26,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33800
+              "duration": 23900
             }
           },
           {
@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28800
+              "duration": 18700
             }
           }
         ],
@@ -49,7 +49,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 747500
+              "duration": 30300
             }
           }
         ]
@@ -76,9 +76,8 @@
               "location": "features/step_definitions/restaurantes_steps.rb:9"
             },
             "result": {
-              "status": "failed",
-              "error_message": "Net::ReadTimeout (Net::ReadTimeout)\n./features/step_definitions/restaurantes_steps.rb:10:in `\"acesso a lista de restaurantes\"'\nfeatures/restaurantes.feature:15:in `Quando acesso a lista de restaurantes'",
-              "duration": 64786777200
+              "status": "passed",
+              "duration": 4678105000
             }
           },
           {
@@ -89,18 +88,34 @@
               "location": "features/step_definitions/restaurantes_steps.rb:13"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1161282600
             }
           }
         ],
         "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "image/png",
+                "data": "aVZCT1J3bz0K"
+              }
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 302025300
+            }
+          },
           {
             "match": {
               "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 109393310200
+              "duration": 158190100
             }
           }
         ]
@@ -118,7 +133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 61900
+              "duration": 17300
             }
           },
           {
@@ -127,7 +142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 49400
+              "duration": 15900
             }
           }
         ],
@@ -141,7 +156,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92100
+              "duration": 23900
             }
           }
         ]
@@ -168,9 +183,8 @@
               "location": "features/step_definitions/restaurantes_steps.rb:9"
             },
             "result": {
-              "status": "failed",
-              "error_message": "Net::ReadTimeout (Net::ReadTimeout)\n./features/step_definitions/restaurantes_steps.rb:10:in `\"acesso a lista de restaurantes\"'\nfeatures/restaurantes.feature:20:in `Quando acesso a lista de restaurantes'",
-              "duration": 60004409000
+              "status": "passed",
+              "duration": 1072540000
             }
           },
           {
@@ -181,18 +195,34 @@
               "location": "features/step_definitions/restaurantes_steps.rb:18"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 551076700
             }
           }
         ],
         "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "image/png",
+                "data": "aVZCT1J3bz0K"
+              }
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318273300
+            }
+          },
           {
             "match": {
               "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 19484020300
+              "duration": 65700700
             }
           }
         ]
@@ -210,7 +240,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 104000
+              "duration": 43000
             }
           },
           {
@@ -219,7 +249,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60100
+              "duration": 18100
             }
           }
         ],
@@ -233,7 +263,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 83000
+              "duration": 26200
             }
           }
         ]
@@ -261,7 +291,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21802291500
+              "duration": 1638620600
             }
           },
           {
@@ -272,20 +302,34 @@
               "location": "features/step_definitions/restaurantes_steps.rb:27"
             },
             "result": {
-              "status": "failed",
-              "error_message": "expected to find text \"25 minutos\" in \"\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/restaurantes_steps.rb:31:in `block (2 levels) in <top (required)>'\n./features/step_definitions/restaurantes_steps.rb:30:in `each'\n./features/step_definitions/restaurantes_steps.rb:30:in `each_with_index'\n./features/step_definitions/restaurantes_steps.rb:30:in `\"cada restaurante deve exibir o tempo de entrega\"'\nfeatures/restaurantes.feature:27:in `Então cada restaurante deve exibir o tempo de entrega'",
-              "duration": 30383251000
+              "status": "passed",
+              "duration": 180509700
             }
           }
         ],
         "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "image/png",
+                "data": "aVZCT1J3bz0K"
+              }
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262902200
+            }
+          },
           {
             "match": {
               "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 104392000
+              "duration": 90673500
             }
           }
         ]
@@ -303,7 +347,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 39200
+              "duration": 35400
             }
           },
           {
@@ -312,7 +356,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38800
+              "duration": 67500
             }
           }
         ],
@@ -326,7 +370,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 256600
+              "duration": 48500
             }
           }
         ]
@@ -354,7 +398,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25845015900
+              "duration": 1130157200
             }
           },
           {
@@ -366,18 +410,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 220651500
+              "duration": 295246000
             }
           }
         ],
         "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "image/png",
+                "data": "aVZCT1J3bz0K"
+              }
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320673400
+            }
+          },
           {
             "match": {
               "location": "capybara-3.24.0/lib/capybara/cucumber.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 92143600
+              "duration": 92453800
             }
           }
         ]
